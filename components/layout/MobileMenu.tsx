@@ -57,9 +57,7 @@ export function MobileMenu() {
           </div>
 
           <div className="mt-6 border-t border-black/10 pt-6">
-            <Link href="/about" onClick={close} className="text-xs font-medium uppercase tracking-wide text-zinc-500">
-              About
-            </Link>
+            <p className="text-xs font-medium uppercase tracking-wide text-zinc-500">About</p>
             <ul className="mt-2 space-y-1">
               {ABOUT_LINKS.map((link) => (
                 <li key={link.href}>
